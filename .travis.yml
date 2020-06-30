@@ -10,5 +10,9 @@ script:
   - yarn test
   - yarn run build
 
+deploy:
+  provider: netlify
+  dir: "_build/"
+
 on:
   branch: master
