@@ -4,10 +4,11 @@ node_js:
 cache:
   directories:
     - node_modules
+install:
+  - yarn install
 script:
   - yarn test
   - yarn run build
-install:
-  - yarn install
+
 on:
   branch: master
