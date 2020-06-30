@@ -10,5 +10,6 @@ script:
   - yarn test
   - yarn run build
 
+  
 on:
   branch: master
