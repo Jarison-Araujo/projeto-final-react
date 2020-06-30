@@ -8,5 +8,8 @@ install:
   - yarn install
 script:
   - yarn test
+  - yarn build
 on:
   branch: master
+
+  
